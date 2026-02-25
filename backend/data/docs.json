@@ -1,0 +1,52 @@
+[
+    {
+        "id": "1",
+        "title": "Account Registration",
+        "content": "To create a new account on our platform, visit the Sign Up page and provide your full name, a valid email address, and a strong password (at least 8 characters, including one uppercase letter and one number). After submitting the form, you will receive a verification email. Click the link in the email within 24 hours to activate your account. If you do not receive the email, check your spam folder or click 'Resend Verification Email' on the login page. Once verified, you can log in and complete your profile by adding a profile picture, phone number, and preferred notification settings."
+    },
+    {
+        "id": "2",
+        "title": "Password Reset",
+        "content": "To reset your password, navigate to the Login page and click 'Forgot Password'. Enter the email address associated with your account and click 'Send Reset Link'. You will receive an email with a secure link valid for 30 minutes. Click the link, enter your new password, and confirm it. Requirements for the new password: minimum 8 characters, at least one uppercase letter, one lowercase letter, one number, and one special character. If the link has expired, repeat the process to get a new one. After a successful reset, all existing sessions on other devices will be logged out for security. If you remember your current password but want to change it, go to Settings > Security > Change Password."
+    },
+    {
+        "id": "3",
+        "title": "Billing and Subscription Plans",
+        "content": "We offer three subscription tiers: Free, Pro, and Enterprise. The Free plan includes up to 5 projects, 1 GB storage, and community support. The Pro plan costs $19/month (or $190/year) and includes unlimited projects, 50 GB storage, priority email support, and advanced analytics. The Enterprise plan is custom-priced and includes everything in Pro plus dedicated account management, SSO, custom integrations, and SLA guarantees. Billing is processed on the 1st of each month for monthly plans and annually for yearly plans. All payments are processed securely via Stripe. We accept Visa, Mastercard, American Express, and PayPal. Invoices are automatically sent to your registered email address after each payment."
+    },
+    {
+        "id": "4",
+        "title": "Refund Policy",
+        "content": "Customers can request a full refund within 14 days of their initial subscription purchase if they are unsatisfied with the service. After 14 days, refunds are not issued for partially used billing periods. To request a refund, contact support@company.com with your account email and reason for the refund. Refunds are processed within 5–7 business days and credited back to the original payment method. Annual plan customers who cancel within the first 30 days are eligible for a prorated refund for the unused months. Promotional or discounted subscriptions are non-refundable. Gift cards and add-on purchases are non-refundable. In cases of billing errors or duplicate charges, full refunds are always issued regardless of the timeframe."
+    },
+    {
+        "id": "5",
+        "title": "Two-Factor Authentication (2FA)",
+        "content": "Two-Factor Authentication (2FA) adds an additional layer of security to your account. To enable it, go to Settings > Security > Two-Factor Authentication and click 'Enable'. You can choose between SMS verification (a code sent to your phone) or an Authenticator App (such as Google Authenticator or Authy). For the Authenticator App method, scan the QR code displayed on screen using your app and enter the 6-digit code to verify setup. Once enabled, you will be prompted for a second factor every time you log in from a new device or browser. You can manage trusted devices from your security settings. If you lose access to your 2FA method, use your backup codes (provided during setup) to regain access. Store these backup codes safely, as they cannot be regenerated."
+    },
+    {
+        "id": "6",
+        "title": "Data Export and Privacy",
+        "content": "You have the right to export all your personal data at any time. To do this, go to Settings > Privacy > Export Data. A download link will be emailed to you within 24 hours containing a ZIP file with your profile information, project data, activity logs, and billing history in JSON and CSV formats. We comply with GDPR and CCPA regulations. Your data is never sold to third parties. We only share data with service providers necessary for platform operation (e.g., Stripe for payments, AWS for hosting). You can request account deletion from Settings > Privacy > Delete Account. Account deletion is permanent and removes all associated data within 30 days, except data required for legal compliance, which is retained for up to 7 years."
+    },
+    {
+        "id": "7",
+        "title": "Integrations and API Access",
+        "content": "Our platform integrates natively with Slack, Google Workspace, Microsoft Teams, GitHub, Jira, and Zapier. To connect an integration, go to Settings > Integrations and click on the desired service. API access is available on Pro and Enterprise plans. To generate an API key, navigate to Settings > API Keys > Generate New Key. Each key can be scoped to specific permissions (read-only, read-write, admin). API keys should be stored securely and never shared or committed to source control. Rate limits apply: Free users get 100 requests/day, Pro users get 10,000 requests/day, and Enterprise users get unlimited requests. Full API documentation is available at docs.company.com/api. Webhook support is available for real-time event notifications."
+    },
+    {
+        "id": "8",
+        "title": "Troubleshooting Login Issues",
+        "content": "If you are unable to log in, follow these steps: First, ensure your caps lock is off and re-enter your credentials. If you have forgotten your password, use the 'Forgot Password' feature. If you are locked out due to too many failed attempts (5 consecutive failures trigger a 15-minute lockout), wait 15 minutes before trying again. If 2FA is causing issues, use one of your backup codes to bypass it. Ensure you are using a supported browser (Chrome 90+, Firefox 88+, Safari 14+, Edge 90+). If login issues persist, clear your browser cache and cookies. Check our status page at status.company.com for any ongoing platform incidents. If none of these resolve the issue, contact support with your account email and a description of the error message you are seeing."
+    },
+    {
+        "id": "9",
+        "title": "Team Collaboration and User Roles",
+        "content": "You can invite team members to your workspace from Settings > Team > Invite Members. Enter their email addresses and assign a role: Owner, Admin, Member, or Viewer. Owners have full control including billing management. Admins can manage members, projects, and settings but cannot access billing. Members can create and edit projects but cannot invite others or change settings. Viewers have read-only access to shared projects. You can change a member's role at any time from Settings > Team. To remove a member, click the three-dot menu next to their name and select 'Remove from Workspace'. Removed members immediately lose access. All actions performed by team members are recorded in the audit log, accessible to Owners and Admins under Settings > Audit Log."
+    },
+    {
+        "id": "10",
+        "title": "File Storage and Limits",
+        "content": "File storage is tied to your subscription plan: Free users get 1 GB, Pro users get 50 GB, and Enterprise users get unlimited storage. Supported file types include images (PNG, JPG, GIF, SVG, WebP), documents (PDF, DOCX, XLSX, CSV, TXT), and media files (MP4, MP3) up to 500 MB per file. To view your current storage usage, go to Settings > Storage. When you approach 80% of your limit, you will receive an email notification. At 100%, you will be unable to upload new files until you free up space or upgrade your plan. Files can be permanently deleted from the Trash folder (files are moved to Trash first and permanently deleted after 30 days). You can upgrade your storage limit by upgrading your subscription plan or contact sales for custom storage add-ons on the Enterprise plan."
+    }
+]
